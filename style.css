@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header{
+    margin-top: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+.list {
+    display: flex;
+    gap: 15px;
+}
+
+.list_link a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    transition: 0.3s;
+}
+
+.list_link a:hover {
+    color: #EF4423;
+}
+
+.foto {
+    width: 2000;
+    height: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.newsimg {
+    width: 1400px;
+    height: 366px;
+    max-width: 1600px;
+    margin: 10px auto;
+
+    display: flex;
+
+}
+
+
+.gav {
+    background: #6A1B9A;
+    width: 350px;
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.guv {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EBEBEB;
+}
+
+.ikoiko {
+    width: 350px;
+    background: #00695C;
+}
+
+.kko {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+}
+
+.youtext {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 10px;
+    color: #EBEBEB;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.allnews {
+    display: flex;
+    /* Стили для общего блока с карточками */
+}
+
+.allnews__card {
+    /* Стили для блока с 1 карточкой */
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background: #B71C1C;
+}
+
+.allnews__card_desc {
+    padding: 8px 15px 15px 15px;
+    /* Стили для блока с описанием, которое находится внутри карточки */
+}
+
+.allnews__card_desc-title {
+    /* Стили для заголовка внутри карточки */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.allnews__card_desc-text {
+    /* Стили для текста внутри карточки */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EBEBEB;
+
+}
+
+.all__tab_title{
+    align-items: center;
+    text-align: center;
+    justify-content: center; 
+    padding: 40px;
+}
+
+.main__news_card{
+    width: 100%;
+    height: 531px;
+    
+    
+}
+
+.main__news_card_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3A3838;
+    margin-top: 30px;
+    
+}
+
+.main__news_card_text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #686868;
+    margin-top: 15px;
+}
+
+.main__card{
+    max-width: 540px; 
+    
+}
+
+.main__img{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.color__desc{
+    background: #6A1B9A;
+}
+
+.color__descs{
+    background: #303F9F;
+}
+
+.color__descsc{
+    background: #00695C;
+}
+
+.footer {
+    max-width: 100%;
+    /* height: 136px; */
+    background: #3A3838;
+    margin-top: 150px;
+    }
+    .footer__item_container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 35px;
+    }
+    .footer__item_link {
+        display: flex;
+         gap: 30px;
+    }
+    .footer__item__text a {
+        font-family: 'RL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        transition: 0.3s;
+    }
+
+    .footer__item__text a:hover{
+        color: #EF4423;
+    }
